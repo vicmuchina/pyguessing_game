@@ -5,7 +5,7 @@ Max_number = input("Input the maximum number for this game: ")
 
 if Max_number.isdigit():
     Max_number = int(Max_number)
-    if int(Max_number) < 0:
+    if int(Max_number) <= 0:
         print("Please input a positive number")
 
     else: 
